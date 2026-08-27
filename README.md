@@ -7,15 +7,28 @@ Core value: enables portable, automated operation of Linux dev boards, terminals
 Use cases: serial-console control and debugging of embedded dev boards, remote SSH server ops, any automation where AI must drive a terminal directly.
 
 
+
+mabaxterms设置
+<img width="1445" height="981" alt="image" src="https://github.com/user-attachments/assets/503c35c9-ff7b-4369-80a3-bd1e3930747f" />
+
+
+
 skill安装完成后 输入 “moba启动” 就可以启动skill
 <img width="1503" height="658" alt="image" src="https://github.com/user-attachments/assets/e4c54702-e82c-43d3-939a-93b82697047f" />
+
+
 
 输入要求便可以自动输入代码，并自行查看终端状态
 <img width="1551" height="368" alt="image" src="https://github.com/user-attachments/assets/c697ab34-9291-4f2c-a1b4-6d29a093fa88" />
 <img width="1763" height="1170" alt="image" src="https://github.com/user-attachments/assets/5715eafb-44fd-4423-b611-dba6b8d433a6" />
 
+
+
 最终成品
 <img width="1597" height="1002" alt="image" src="https://github.com/user-attachments/assets/ac7ac500-8a06-4e8e-bf9b-8136217daa0a" />
 
+
+注：如果skill不能识别请检查.log是否生成(可直接告诉ai .log 的位置)
+<img width="1090" height="656" alt="image" src="https://github.com/user-attachments/assets/18f29850-235c-442e-926e-ca6ac80a9756" />
 
 
