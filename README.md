@@ -5,3 +5,17 @@ mobaxterm-bridge is a MobaXterm terminal bridging tool that lets AI directly re
 Core mechanism: it auto-detects the currently open terminal window (works for serial/SSH/Telnet), auto-discovers the log file location, reads terminal output by tailing the log, and injects commands via pywinauto send_keys — enabling full bidirectional AI↔terminal communication.
 Core value: enables portable, automated operation of Linux dev boards, terminals and similar devices — the AI runs locally and drives the board remotely, with no need to deploy the AI onto the target board. This dramatically cuts operational cost (no cross-compiling, model porting, or runtime deployment), time cost (skip environment setup and repeated debugging), and technical cost (resource-constrained boards can't easily run inference locally — the bridge sidesteps the hardware barrier entirely, bringing AI automation to embedded devices regardless of their compute limits).
 Use cases: serial-console control and debugging of embedded dev boards, remote SSH server ops, any automation where AI must drive a terminal directly.
+
+
+skill安装完成后 输入 “moba启动” 就可以启动skill
+<img width="1503" height="658" alt="image" src="https://github.com/user-attachments/assets/e4c54702-e82c-43d3-939a-93b82697047f" />
+
+输入要求便可以自动输入代码，并自行查看终端状态
+<img width="1551" height="368" alt="image" src="https://github.com/user-attachments/assets/c697ab34-9291-4f2c-a1b4-6d29a093fa88" />
+<img width="1763" height="1170" alt="image" src="https://github.com/user-attachments/assets/5715eafb-44fd-4423-b611-dba6b8d433a6" />
+
+最终成品
+<img width="1597" height="1002" alt="image" src="https://github.com/user-attachments/assets/ac7ac500-8a06-4e8e-bf9b-8136217daa0a" />
+
+
+
