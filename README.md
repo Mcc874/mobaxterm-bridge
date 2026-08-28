@@ -1,4 +1,7 @@
 # mobaxterm-bridge
+修正：目前mobaxterm只能输出串口log
+Correction: MobaXterm can only output serial port logs
+
 mobaxterm-bridge 是一个 MobaXterm 终端桥接skill，让 AI 能直接读写 MobaXterm 终端，无需人工复制粘贴。 核心机制：自动识别当前打开的终端窗口（串口），自动搜索日志文件位置，通过读日志获取终端输出，通过 pywinauto send_keys 发送命令，实现 AI 与终端的双向通信。 实现 Linux 开发板、终端等设备的便携式自动化运维——AI 在本地运行即可远程驱动开发板，无需将 AI 部署到目标板上。省去交叉编译、模型移植、运行时部署的繁琐流程,免去环境搭建与反复调试，让嵌入式设备便携实现 AI 自动化能力。 适用场景：嵌入式开发板的串口控制与调试、远程服务器 SSH 运维、需要 AI 直接驱动终端的自动化任务。
 
 mobaxterm-bridge is a MobaXterm terminal bridging tool that lets AI directly read from and write to MobaXterm terminals, eliminating manual copy-paste.
